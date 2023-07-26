@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+
+body {
+  padding: 10px;
+}
+
+.nav-container {
+  background-color: rgb(245, 224, 194);
+}
+
+.h3-conatainer {
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(236, 203, 127, 0.973);
+  color: rgb(138, 55, 4);
+  border-radius: 60px;
+}
+
+.h3-conatainer > img {
+  width: 40px;
+  height: 40px;
+  padding-top: 30px;
+}
+
+.h3-conatainer > h3 {
+  font-size: 2rem;
+}
+
+.top-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  background-color: rgba(236, 203, 127, 0.973);
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  color: rgb(138, 55, 4);
+  column-gap: 10px;
+}
+
+.menu-btn {
+  border-radius: 60px;
+}
+
+main {
+  display: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 45px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: rgb(138, 55, 4);
+}
+
+.cards {
+  display: column;
+  margin-bottom: 25px;
+  border-radius: 30px;
+
+  background-color: rgb(245, 224, 194);
+}
+
+.card {
+  border-radius: 50px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-description {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  color: rgb(138, 55, 4);
+  align-items: center;
+}
+
+.description-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px 0 5px;
+}
+
+.price-tag {
+  padding-top: 20px;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  color: rgb(138, 55, 4);
+  padding-bottom: 20px;
+}
+
+.cart-btn {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  color: rgb(138, 55, 4);
+  background-color: rgba(236, 203, 127, 0.973);
+  padding: 10px 20px 10px 20px;
+  margin-inline: 20px;
+  border-radius: 60px;
+}
+
+h2 {
+  color: rgb(138, 55, 4);
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.last-column {
+  color: rgb(138, 55, 4);
+  font-family: "Roboto", sans-serif;
+  padding: 10px 15px;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: rgb(245, 224, 194);
+}
+
+.last-column-photograph {
+  width: 100%;
+}
